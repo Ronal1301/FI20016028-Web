@@ -1,7 +1,8 @@
 # PP2 – Calculadora Binaria 
 
-##**Nombre** Ronal Delgado Vásquez  
-##**Carné:** FI20016028
+## Informacion
+**Nombre** Ronal Delgado Vásquez  
+**Carné:** FI20016028
 
 ## Comandos que usé
 
@@ -55,4 +56,5 @@ En hex: FE01
 
 * ¿Es posible hacer las operaciones en otra capa? Si sí, ¿en cuál sería?
 Diria que si, segun unas busquedas en internet y consultas, se podria pasar la logica a un servicio(como BinaryService) en vez de hacer todo en el Controller
+
 
