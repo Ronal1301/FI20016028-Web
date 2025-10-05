@@ -1,12 +1,11 @@
 # PP2 – Calculadora Binaria 
 
-**Nombre:** Ronal Delgado Vásquez  
-**Carné:** FI20016028
+##**Nombre** Ronal Delgado Vásquez  
+##**Carné:** FI20016028
 
 ## Comandos que usé
 
 ```bash
-# Crear carpeta y solución
 mkdir PP2
 cd PP2
 dotnet new sln -n PP2
