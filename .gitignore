@@ -57,3 +57,7 @@ nunit-*.xml
 .vs/
 
 repos/
+
+# Exclusiones obligatorias del profesor
+PP4/BooksApp/data/
+PP4/BooksApp/Migrations/
