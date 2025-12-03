@@ -13,7 +13,7 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    // ChatGPT, me daba error esta parte e hice la consulta
     public IActionResult Index([FromServices] IEnumerable<IAirplanes> airplanes)
     {
         using var db = new CarsContext();
@@ -25,7 +25,7 @@ public class HomeController : Controller
         ViewData["BrandModel"] = $"{brand.BrandName} - {model.ModelName}";
 
         var dealer = db.Dealers
-                       .Include(d => d.Brands)
+                       .Include(d => d.Brands) // ChatGPT
                        .First(d => d.Brands.Any(b => b.BrandId == brand.BrandId));
 
         ViewData["Dealer"] = $"{dealer.DealerName} - {dealer.DealerAddress}";
